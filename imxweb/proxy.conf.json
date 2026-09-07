@@ -1,0 +1,14 @@
+{
+  "/ApiServer": {
+    "target": "https://iam10",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "cookieDomainRewrite": {
+      "iam10": "localhost"
+    },
+    "cookiePathRewrite": {
+      "*": "/; SameSite=Lax"
+    }
+  }
+}
